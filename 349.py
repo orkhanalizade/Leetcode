@@ -31,8 +31,6 @@ class Solution:
                 list.append(n2)
                 del hashMap[n2]
 
-        print(list)
-
         return list
 
 Solution().intersection([1,2,2,1], [2,2])
